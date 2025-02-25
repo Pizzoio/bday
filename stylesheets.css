@@ -1,0 +1,66 @@
+body {
+    background-image: url(img/back.gif);
+    background-color: rgb(20, 33, 41);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.btn1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    margin: 10px auto;
+    padding: 5px 5px;
+    font-size: 25px;
+    color: white;
+    border-color: transparent;
+    font-family: "Dancing Script", cursive;
+    cursor: pointer;
+}
+.btn2{
+    background-color: transparent;
+    margin: 10px auto;
+    padding: 5px 5px;
+    font-size: 16px;
+    color: white;
+    border-color: transparent;
+    font-family: "Times New Roman", Georgia, serif;
+    cursor: pointer;
+}
+h1{
+    font-family: "Times New Roman", Georgia, serif;
+    background-color: rgb(23, 96, 124);
+    text-align: center;
+}
+h2 {
+    font-family: "Times New Roman", Georgia, serif;
+    color: white;
+}
+
+#progress-container {
+    width: 300px;
+    height: 30px;
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 20px auto;
+    position: relative;
+}
+#progress-bar {
+    height: 100%;
+    width: 0%;
+    background-color: #833492;
+    transition: width 0.3s;
+}
+#popup {
+    display: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+#comp1 {
+    display: none;
+    width: 300px; 
+    position: absolute;
+}
